@@ -1,0 +1,5 @@
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Models\bin\Debug\Miracle.Models.dll
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Models\bin\Debug\Miracle.Models.pdb
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Models\obj\Debug\Miracle.Models.dll
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Models\obj\Debug\Miracle.Models.pdb
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Models\obj\Debug\Miracle.Models.csprojResolveAssemblyReference.cache

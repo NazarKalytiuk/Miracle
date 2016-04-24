@@ -1,0 +1,8 @@
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\bin\Miracle.Service.dll.config
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\bin\Miracle.Service.dll
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\bin\Miracle.Service.pdb
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\bin\Miracle.Models.dll
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\bin\Miracle.Models.pdb
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\obj\Debug\Miracle.Service.csprojResolveAssemblyReference.cache
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\obj\Debug\Miracle.Service.dll
+C:\Users\Nazar\Documents\GitHub\Miracle\Miracle.Service\obj\Debug\Miracle.Service.pdb

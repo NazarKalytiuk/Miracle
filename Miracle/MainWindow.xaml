@@ -1,0 +1,33 @@
+﻿<Window x:Class="Miracle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:HamburgerMenu="clr-namespace:HamburgerMenu;assembly=HamburgerMenu" 
+        xmlns:local="clr-namespace:Miracle"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        Title="ТОВ Співдружність" Height="720" Width="1315" WindowStyle="SingleBorderWindow" Icon="Assets/icon.png">
+    <Grid>
+        <HamburgerMenu:HamburgerMenu Background="#212121" 
+                                     Panel.ZIndex="200"
+                                     MenuIcon="Assets/menu.png" MenuIconColor="#F50057" 
+                                     SelectionIndicatorColor="#F50057" MenuItemForeground="#fafafa" 
+                                     HorizontalAlignment="Left" 
+                                     OpenWidth="170" CloseWidth="45"
+                                     IconsMargin="10" IconsSize="20"
+                                     AnimationDuration="0.4" SlideOpenDelay="0.4">
+            <HamburgerMenu:HamburgerMenu.Content>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Dashboard" Icon="Assets/dashboard.png" Text="Головна" DockPanel.Dock="Top" Selected="Dashboard_Selected"/>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Personal" Icon="Assets/personal.png" Text="Персонал" DockPanel.Dock="Top" Selected="Personal_Selected"/>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Storage" Icon="Assets/storage.png" Text="Склад" DockPanel.Dock="Top" Selected="Storage_Selected"/>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Incoming" Icon="Assets/down.png" Text="Поставки" DockPanel.Dock="Top" Selected="Incoming_Selected"/>
+                <HamburgerMenu:HamburgerMenuItem x:Name="Shipment" Icon="Assets/up.png" Text="Відправки" DockPanel.Dock="Top" Selected="Shipment_Selected"/>
+                <HamburgerMenu:HamburgerMenuItem x:Name="About" Icon="Assets/help.png" Text="Про програму" DockPanel.Dock="Bottom" Selected="About_Selected"/>
+            </HamburgerMenu:HamburgerMenu.Content>
+        </HamburgerMenu:HamburgerMenu>
+        <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden" Margin="45,0,0,0"/>
+    </Grid>
+</Window>

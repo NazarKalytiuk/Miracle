@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Miracle.Service.Service" CodeBehind="Service.svc.cs" %>
